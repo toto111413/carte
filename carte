@@ -7,17 +7,17 @@ import os
 
 # --- Données des cartes ---
 cartes = [
-    {"nom": "Tom", "age": "11 ans", "desc": "Intello", "type": "Éclair", "photo": "images/tom.png", "rare": False},
-    {"nom": "Eléïa", "age": "13 ans", "desc": "Belle", "type": "Rose doré", "photo": "images/eléïa.png", "rare": False},
-    {"nom": "Matys", "age": "9 ans", "desc": "Mignon", "type": "Dragon", "photo": "images/matys.png", "rare": False},
-    {"nom": "Maman", "age": "39 ans", "desc": "La meilleure", "type": "Amour", "photo": "images/maman.png", "rare": True},
-    {"nom": "Éric", "age": "36 ans", "desc": "Mon héro", "type": "Force", "photo": "images/éric.png", "rare": False},
-    {"nom": "Maya", "age": "62 ans", "desc": "Affectueuse", "type": "Chat", "photo": "images/maya.png", "rare": False},
-    {"nom": "Papick", "age": "65 ans", "desc": "Drôle", "type": "Grand Schtroumpf", "photo": "images/papick.png", "rare": True},
-    {"nom": "Tonton", "age": "37 ans", "desc": "Drôle", "type": "Cool", "photo": "images/tonton.png", "rare": False},
-    {"nom": "Sandra", "age": "40 ans", "desc": "Enfant", "type": "Amour", "photo": "images/sandra.png", "rare": False},
-    {"nom": "Laëtitia", "age": "10 ans", "desc": "Funny", "type": "Rose doré", "photo": "images/laetitia.png", "rare": False},
-    {"nom": "Lolo", "age": "5 ans", "desc": "Le plus petit", "type": "Malin", "photo": "images/lolo.png", "rare": False},
+    {"nom": "Tom", "age": "11 ans", "desc": "Intello", "type": "Éclair", "photo": "tom.jpg", "rare": False},
+    {"nom": "Eléïa", "age": "13 ans", "desc": "Belle", "type": "Rose doré", "photo": "eléïa.jpg", "rare": False},
+    {"nom": "Matys", "age": "9 ans", "desc": "Mignon", "type": "Dragon", "photo": "matys.jpg", "rare": False},
+    {"nom": "Maman", "age": "39 ans", "desc": "La meilleure", "type": "Amour", "photo": "maman.jpg", "rare": True},
+    {"nom": "Éric", "age": "36 ans", "desc": "Mon héro", "type": "Force", "photo": "éric.jpg", "rare": False},
+    {"nom": "Maya", "age": "62 ans", "desc": "Affectueuse", "type": "Chat", "photo": "maya.jpg", "rare": False},
+    {"nom": "Papick", "age": "65 ans", "desc": "Drôle", "type": "Grand Schtroumpf", "photo": "papick.jpg", "rare": True},
+    {"nom": "Tonton", "age": "37 ans", "desc": "Drôle", "type": "Cool", "photo": "tonton.jpg", "rare": False},
+    {"nom": "Sandra", "age": "40 ans", "desc": "Enfant", "type": "Amour", "photo": "sandra.jpg", "rare": False},
+    {"nom": "Laëtitia", "age": "10 ans", "desc": "Funny", "type": "Rose doré", "photo": "leatitia.jpg", "rare": False},
+    {"nom": "Lolo", "age": "5 ans", "desc": "Le plus petit", "type": "Malin", "photo": "lolo.jpg", "rare": False},
 ]
 
 # --- Session state pour garder l'album ---
